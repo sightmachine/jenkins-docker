@@ -1,6 +1,6 @@
 ansicolor:0.5.2
 basic-branch-build-strategies:1.0.1
-blueocean:1.8.2
+blueocean:1.8.3
 branch-api:2.0.20
 cobertura:1.13
 credentials-binding:1.16
@@ -11,12 +11,12 @@ ghprb:1.42.0
 google-login:1.4
 google-oauth-plugin:0.6
 google-storage-plugin:1.2
-jira:3.0.1
-junit:1.25
+jira:3.0.2
+junit:1.26.1
 kubernetes:1.12.6
 metrics:4.0.2.2
 monitoring:1.74.0
-pipeline-aws:1.31
+pipeline-aws:1.32
 prometheus:2.0.0
 timestamper:1.8.10
 workflow-aggregator:2.5
