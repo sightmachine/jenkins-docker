@@ -12,7 +12,7 @@ ghprb:1.42.0
 google-login:1.4
 google-oauth-plugin:0.6
 google-storage-plugin:1.2
-jira:3.0.3
+jira:3.0.2
 junit:1.26.1
 kubernetes:1.13.1
 metrics:4.0.2.2
