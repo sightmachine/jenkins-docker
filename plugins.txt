@@ -14,7 +14,7 @@ google-oauth-plugin:0.6
 google-storage-plugin:1.2
 jira:3.0.5
 junit:1.26.1
-kubernetes:1.13.8
+kubernetes:1.14.0
 metrics:4.0.2.2
 monitoring:1.75.0
 pipeline-aws:1.35
