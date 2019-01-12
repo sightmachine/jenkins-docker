@@ -1,6 +1,18 @@
 CHANGELOG
 =========
 
+2.156.2
+-----
+* downgrading kubernetes plugin from v1.14.1 to v1.13.5 (re: DEVOPS-4276)
+
+2.156.1
+-----
+
+
+2.156.0
+-----
+
+
 2.141.0
 -----
 * jenkins.war upgraded to v2.141
