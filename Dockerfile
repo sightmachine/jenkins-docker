@@ -35,8 +35,8 @@ ARG TINI_VERSION=v0.16.1
 COPY tini_pub.gpg ${JENKINS_HOME}/tini_pub.gpg
 RUN curl -fsSL https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini-static-$(dpkg --print-architecture) -o /sbin/tini \
   && curl -fsSL https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini-static-$(dpkg --print-architecture).asc -o /sbin/tini.asc \
-  && gpg --import ${JENKINS_HOME}/tini_pub.gpg \
-  && gpg --verify /sbin/tini.asc \
+  && gpg --no-tty --import ${JENKINS_HOME}/tini_pub.gpg \
+  && gpg --no-tty --verify /sbin/tini.asc \
   && rm -rf /sbin/tini.asc /root/.gnupg \
   && chmod +x /sbin/tini
 
@@ -44,11 +44,11 @@ COPY init.groovy /usr/share/jenkins/ref/init.groovy.d/tcp-slave-agent-port.groov
 
 # jenkins version being bundled in this docker image
 ARG JENKINS_VERSION
-ENV JENKINS_VERSION ${JENKINS_VERSION:-2.157}
+ENV JENKINS_VERSION ${JENKINS_VERSION:-2.159}
 
 # jenkins.war checksum (SHA-256), download will be validated using it
 # https://updates.jenkins-ci.org/download/war/
-ARG JENKINS_SHA=8b03ec1c74325df030c65d4f5347191efb9f3a6ee84a27fb3050a18513d937b6
+ARG JENKINS_SHA=2a2aee5e3f70b62e2a69f0bd63f2920744a965285bfbb7e56e6cfdba0f0b88d5
 
 # Can be used to customize where jenkins.war get downloaded from
 ARG JENKINS_URL=https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-war/${JENKINS_VERSION}/jenkins-war-${JENKINS_VERSION}.war
