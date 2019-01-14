@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-2.157.0
+2.159.0
 -----
 * jenkins core
 * ansicolor:0.6.0 -> ansicolor:0.6.1
