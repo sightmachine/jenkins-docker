@@ -1,6 +1,14 @@
 CHANGELOG
 =========
 
+2.157.0
+-----
+* jenkins core
+* ansicolor:0.6.0 -> ansicolor:0.6.1
+* kubernetes:1.13.5 -> kubernetes:1.14.3
+* pipeline-aws:1.35 -> pipeline-aws:1.36
+* workflow-cps:2.61 -> workflow-cps:2.62
+
 2.156.2
 -----
 * downgrading kubernetes plugin from v1.14.1 to v1.13.5 (re: DEVOPS-4276)

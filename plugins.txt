@@ -1,5 +1,5 @@
 anchore-container-scanner:1.0.18
-ansicolor:0.6.0
+ansicolor:0.6.1
 basic-branch-build-strategies:1.1.1
 blueocean:1.9.0
 branch-api:2.1.2
@@ -14,11 +14,11 @@ google-oauth-plugin:0.6
 google-storage-plugin:1.2
 jira:3.0.5
 junit:1.26.1
-kubernetes:1.13.5
+kubernetes:1.14.3
 metrics:4.0.2.2
 monitoring:1.75.0
-pipeline-aws:1.35
+pipeline-aws:1.36
 prometheus:2.0.0
 timestamper:1.8.10
 workflow-aggregator:2.6
-workflow-cps:2.61
+workflow-cps:2.62
