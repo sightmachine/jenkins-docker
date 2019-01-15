@@ -8,6 +8,7 @@ CHANGELOG
 * kubernetes:1.13.5 -> kubernetes:1.14.3
 * pipeline-aws:1.35 -> pipeline-aws:1.36
 * workflow-cps:2.61 -> workflow-cps:2.62
+* blueocean:1.9.0 -> blueocean:1.10.1
 * editing Dockerfile gpg --no-tty  in order to build with cloudbuilder
 
 2.156.2

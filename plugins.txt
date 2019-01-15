@@ -1,7 +1,7 @@
 anchore-container-scanner:1.0.18
 ansicolor:0.6.1
 basic-branch-build-strategies:1.1.1
-blueocean:1.9.0
+blueocean:1.10.1
 branch-api:2.1.2
 cobertura:1.13
 credentials-binding:1.17
