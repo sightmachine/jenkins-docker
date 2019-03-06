@@ -1,6 +1,24 @@
 CHANGELOG
 =========
 
+2.167.0
+-----
+* jenkins core
+* install-plugins.sh - build stability/retry logic from upstream
+* ansicolor:0.6.2
+* blueocean:1.13.1
+* credentials-binding:1.18
+* git:3.9.3
+* github:1.29.4
+* github-branch-source:2.4.2
+* google-oauth-plugin:0.7
+* junit:1.27
+* kubernetes:1.14.8
+* metrics:4.0.2.3
+* monitoring:1.76.0
+* timestamper:1.9
+* workflow-cps:2.63
+
 2.159.0
 -----
 * jenkins core
