@@ -1,5 +1,11 @@
 CHANGELOG
 =========
+2.176.0
+-----
+* jenkins core
+* bumping all plugins to latest
+* pinning kubernetes plugin to v1.14.3
+
 
 2.167.0
 -----
