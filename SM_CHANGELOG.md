@@ -1,5 +1,10 @@
 CHANGELOG
 =========
+2.176.1
+-----
+* Github Branch Source 2.5.1 -> 2.5.2
+* Kubernetes 1.14.3 -> 1.15.4 (testing)
+
 2.176.0
 -----
 * jenkins core

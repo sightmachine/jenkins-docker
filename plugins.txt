@@ -9,14 +9,14 @@ configuration-as-code:1.14
 credentials-binding:1.18
 git:3.10.0
 github:1.29.4
-github-branch-source:2.5.1
+github-branch-source:2.5.2
 ghprb:1.42.0
 google-login:1.4
 google-oauth-plugin:0.8
 google-storage-plugin:1.2
 jira:3.0.7
 junit:1.27
-kubernetes:1.14.3
+kubernetes:1.15.4
 metrics:4.0.2.3
 monitoring:1.77.0
 pipeline-aws:1.37
