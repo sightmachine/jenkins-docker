@@ -5,7 +5,7 @@ blueocean:1.16.0
 branch-api:2.4.0
 build-failure-analyzer:1.22.0
 cobertura:1.13
-configuration-as-code:1.14
+configuration-as-code:1.15
 credentials-binding:1.18
 git:3.10.0
 github:1.29.4
@@ -23,4 +23,4 @@ pipeline-aws:1.37
 prometheus:2.0.0
 timestamper:1.9
 workflow-aggregator:2.6
-workflow-cps:2.67
+workflow-cps:2.68

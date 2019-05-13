@@ -1,5 +1,12 @@
 CHANGELOG
 =========
+2.177.0
+-----
+* jenkins core
+* configuration-as-code:1.14 -> 1.15
+* workflow-cps:2.67 ->2.68
+
+
 2.176.1
 -----
 * Github Branch Source 2.5.1 -> 2.5.2
