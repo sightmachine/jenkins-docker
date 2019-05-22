@@ -19,6 +19,7 @@ metrics:4.0.2.2
 monitoring:1.75.0
 pipeline-aws:1.36
 prometheus:2.0.0
+slack:2.23
 timestamper:1.8.10
 workflow-aggregator:2.6
 workflow-cps:2.62
